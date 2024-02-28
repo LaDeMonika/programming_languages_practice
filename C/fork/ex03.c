@@ -14,7 +14,7 @@ int main(int ac, char **av)
     {
         fork();
                 /* ..because main proces get forked, child whould
-                be as well forked if we didn't (id != 0)
+                be as well forked if we didn't wrote (id != 0)
                 and called fork func inside */
     }
     printf("Hello\n");
